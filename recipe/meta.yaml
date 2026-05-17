@@ -1,5 +1,5 @@
 {% set name = "fastdfe" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fastdfe-{{ version }}.tar.gz
-  sha256: 9fab87f519a9c5072fd5295567f5911681d17b7f9bed007143f8e6c422beb20c
+  sha256: bfa98865daeb4419ac86548f4b12aed23a5227302e9648692435fbed019c3386
 
 build:
   noarch: python
